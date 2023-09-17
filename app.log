@@ -1,0 +1,12 @@
+INFO:root:Country: Philippines, Season: Summer
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Recommend travel activities in Philippines during Summer season.", "max_tokens": 100}' message='Post details'
+DEBUG:urllib3.util.retry:Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.openai.com:443
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=625 request_id=8cff075c474f7a580b61835ccb6d9644 response_code=200
+INFO:root:Country: Philippines, Season: Summer
+DEBUG:openai:message='Request to OpenAI API' method=post path=https://api.openai.com/v1/engines/text-davinci-002/completions
+DEBUG:openai:api_version=None data='{"prompt": "Recommend travel activities in Philippines during Summer season.", "max_tokens": 100}' message='Post details'
+DEBUG:urllib3.connectionpool:https://api.openai.com:443 "POST /v1/engines/text-davinci-002/completions HTTP/1.1" 200 None
+DEBUG:openai:message='OpenAI API response' path=https://api.openai.com/v1/engines/text-davinci-002/completions processing_ms=363 request_id=8b4bf7886730dda91dd103ba07020a5b response_code=200
